@@ -4,8 +4,10 @@ const path = require( 'path' );
 const { styles } = require( '@ckeditor/ckeditor5-dev-utils' );
 
 module.exports = {
+    // https://webpack.js.org/configuration/entry-context/
     entry: './sample/app.js',
 
+    // https://webpack.js.org/configuration/output/
     output: {
         path: path.resolve( __dirname, 'dist' ),
         filename: 'bundle.js'
@@ -14,11 +16,13 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.svg$/,
+                test: /ckeditor5-[^/\\]+[/\\]theme[/\\]icons[/\\][^/\\]+\.svg$/,
+
                 use: [ 'raw-loader' ]
             },
             {
-                test: /\.css$/,
+                test: /ckeditor5-[^/\\]+[/\\]theme[/\\].+\.css$/,
+
                 use: [
                     {
                         loader: 'style-loader',
@@ -29,15 +33,18 @@ module.exports = {
                             }
                         }
                     },
+                    'css-loader',
                     {
                         loader: 'postcss-loader',
-                        options: styles.getPostCssConfig( {
-                            themeImporter: {
-                                themePath: require.resolve( '@ckeditor/ckeditor5-theme-lark' )
-                            },
-                            minify: true
-                        } )
-                    },
+                        options: {
+                            postcssOptions: styles.getPostCssConfig( {
+                                themeImporter: {
+                                    themePath: require.resolve( '@ckeditor/ckeditor5-theme-lark' )
+                                },
+                                minify: true
+                            } )
+                        }
+                    }
                 ]
             }
         ]
