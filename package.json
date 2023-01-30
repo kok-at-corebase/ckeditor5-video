@@ -1,5 +1,5 @@
 {
-  "name": "@kok/ckeditor-video",
+  "name": "@kok/ckeditor5-video",
   "version": "36.0.0",
   "description": "Video features for CKEditor 5 (like Image features).",
   "keywords": [
