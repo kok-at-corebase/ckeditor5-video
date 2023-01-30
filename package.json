@@ -12,8 +12,6 @@
     "ckeditor5-video-upload-plugin"
   ],
   "scripts": {
-    "build": "webpack --mode development",
-    "build:watch": "webpack --mode development -w",
     "dll:build": "webpack"
   },
   "main": "src/index.js",
@@ -57,10 +55,10 @@
     "webpack-cli": "^4.10.0"
   },
   "engines": {
-    "node": ">=12.0.0",
+    "node": ">=14.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "Visao",
+  "author": "Kok",
   "license": "GPL-2.0-or-later",
   "homepage": "https://github.com/kok-at-corebase/ckeditor5-video",
   "bugs": {
