@@ -1,6 +1,6 @@
-import { Plugin, icons } from 'ckeditor5/src/core';
-import { ButtonView, DropdownButtonView, Model, createDropdown, addListToDropdown } from 'ckeditor5/src/ui';
-import { CKEditorError, Collection } from 'ckeditor5/src/utils';
+import { Plugin, icons } from '@ckeditor/ckeditor5-core';
+import { ButtonView, DropdownButtonView, Model, createDropdown, addListToDropdown } from '@ckeditor/ckeditor5-ui';
+import { CKEditorError, Collection } from '@ckeditor/ckeditor5-utils';
 import VideoResizeEditing from "./videoresizeediting";
 
 const RESIZE_ICONS = {

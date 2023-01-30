@@ -1,5 +1,5 @@
-import { Plugin } from 'ckeditor5/src/core';
-import { FileRepository } from 'ckeditor5/src/upload';
+import { Plugin } from '@ckeditor/ckeditor5-core';
+import { FileRepository } from '@ckeditor/ckeditor5-upload';
 import uploadingPlaceholder from '../../theme/icons/video_placeholder.svg';
 
 import '../../theme/videouploadprogress.css';

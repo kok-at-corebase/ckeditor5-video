@@ -1,4 +1,4 @@
-import { global } from 'ckeditor5/src/utils';
+import { global } from '@ckeditor/ckeditor5-utils';
 
 export function createVideoTypeRegExp(types) {
     const regExpSafeNames = types.map(type => type.replace('+', '\\+'));

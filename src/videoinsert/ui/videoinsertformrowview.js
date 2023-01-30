@@ -1,5 +1,6 @@
-import { View } from 'ckeditor5/src/ui';
+// import { View } from '@ckeditor/ckeditor5-ui';
 
+import { View } from '@ckeditor/ckeditor5-ui';
 import '../../../theme/videoinsertformrowview.css';
 
 export default class videoUploadFormRowView extends View {

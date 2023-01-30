@@ -1,10 +1,13 @@
-import { icons } from 'ckeditor5/src/core';
-import { ButtonView, View, SplitButtonView, ViewCollection, submitHandler, createDropdown, FocusCycler } from 'ckeditor5/src/ui';
-import { Collection, FocusTracker, KeystrokeHandler } from 'ckeditor5/src/utils';
+// import { icons } from '@ckeditor/ckeditor5-core';
+// import { ButtonView, View, SplitButtonView, ViewCollection, submitHandler, createDropdown, FocusCycler } from '@ckeditor/ckeditor5-ui';
+// import { Collection, FocusTracker, KeystrokeHandler } from '@ckeditor/ckeditor5-utils';
 
 import VideoInsertFormRowView from './videoinsertformrowview';
 
 import '../../../theme/videoinsert.css';
+import { ButtonView, View, SplitButtonView, ViewCollection, submitHandler, createDropdown, FocusCycler } from '@ckeditor/ckeditor5-ui';
+import { Collection, FocusTracker, KeystrokeHandler } from '@ckeditor/ckeditor5-utils';
+import { icons } from '@ckeditor/ckeditor5-core';
 
 
 export default class VideoInsertPanelView extends View {

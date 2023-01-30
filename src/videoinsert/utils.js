@@ -1,4 +1,4 @@
-import { LabeledFieldView, createLabeledInputText } from 'ckeditor5/src/ui';
+import { LabeledFieldView, createLabeledInputText } from '@ckeditor/ckeditor5-ui';
 
 export function prepareIntegrations( editor ) {
     const panelItems = editor.config.get( 'video.insert.integrations' );

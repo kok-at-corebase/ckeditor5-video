@@ -1,8 +1,8 @@
-import { Plugin } from 'ckeditor5/src/core';
-import { Clipboard } from 'ckeditor5/src/clipboard';
-import { LivePosition, LiveRange } from 'ckeditor5/src/engine';
-import { Undo } from 'ckeditor5/src/undo';
-import { global } from 'ckeditor5/src/utils';
+import { Plugin } from '@ckeditor/ckeditor5-core';
+import { Clipboard } from '@ckeditor/ckeditor5-clipboard';
+import { LivePosition, LiveRange } from '@ckeditor/ckeditor5-engine';
+import { Undo } from '@ckeditor/ckeditor5-undo';
+import { global } from '@ckeditor/ckeditor5-utils';
 import VideoUtils from './videoutils';
 
 // Implements the pattern: http(s)://(www.)example.com/path/to/resource.ext?query=params&maybe=too.

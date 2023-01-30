@@ -1,7 +1,8 @@
-import { Plugin } from 'ckeditor5/src/core';
+// import { Plugin } from '@ckeditor/ckeditor5-core';
 import VideoLoadObserver from './videoloadobserver';
 import InsertVideoCommand from './insertvideocommand';
 import VideoUtils from "../videoutils";
+import { Plugin } from '@ckeditor/ckeditor5-core';
 
 export default class VideoEditing extends Plugin {
 	static get requires() {

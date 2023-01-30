@@ -1,5 +1,5 @@
-import { Plugin } from 'ckeditor5/src/core';
-import { findOptimalInsertionRange, isWidget, toWidget } from 'ckeditor5/src/widget';
+import { Plugin } from '@ckeditor/ckeditor5-core';
+import { findOptimalInsertionRange, isWidget, toWidget } from '@ckeditor/ckeditor5-widget';
 import { determineVideoTypeForInsertionAtSelection } from './video/utils';
 
 export default class VideoUtils extends Plugin {

@@ -1,5 +1,5 @@
 import Command from '@ckeditor/ckeditor5-core/src/command';
-import { logWarning, toArray } from 'ckeditor5/src/utils';
+import { logWarning, toArray } from '@ckeditor/ckeditor5-utils';
 
 
 export default class InsertVideoCommand extends Command {

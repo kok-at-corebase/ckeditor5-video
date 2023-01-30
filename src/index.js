@@ -13,5 +13,5 @@ import { default as VideoStyleUI } from './videostyle/videostyleui';
 import { default as VideoToolbar } from './videotoolbar';
 import { default as VideoUpload } from './videoupload';
 import { default as VideoUploadEditing } from './videoupload/videouploadediting';
-import { default as  VideoUploadProgress } from './videoupload/videouploadprogress';
+import { default as VideoUploadProgress } from './videoupload/videouploadprogress';
 import { default as VideoUploadUI } from './videoupload/videouploadui';

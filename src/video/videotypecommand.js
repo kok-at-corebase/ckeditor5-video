@@ -1,4 +1,6 @@
-import { Command } from 'ckeditor5/src/core';
+// import { Command } from '@ckeditor/ckeditor5-core';
+
+import { Command } from "@ckeditor/ckeditor5-core";
 
 
 export default class VideoTypeCommand extends Command {
